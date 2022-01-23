@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .box {
+        height: 200px;
+        width: 200px;
+        background-color: gold;
+        transition: transform 0.5s linear;
+      }
+      .box:hover {
+        transform: perspective(200px) translateZ(-100px);
+        /*transform: rotate(-15deg);*/ /*scale(2), skew(30deg);*/
+      }
+    </style>
+  </head>
+  <body>
+    <p class="box">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+      architecto expedita saepe! Tempora dolorum praesentium amet? Quam,
+      doloribus? Similique officiis incidunt quaerat modi nihil sequi rerum
+      aliquid fuga ab pariatur!
+    </p>
+  </body>
+</html>

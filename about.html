@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <style>
+      p {
+        background-color: skyblue;
+        border: solid;
+        padding: 10px 20px;
+        margin: 5px 5px;
+      }
+      .identend {
+        padding-left: 0px;
+        background-color: tomato;
+      }
+
+      .inline-box {
+        height: 200px;
+        width: 200px;
+        background-color: yellow;
+        margin: 20px 20px;
+        display: inline-block;
+        padding: 10px 10px;
+      }
+      .overflow-box {
+        height: 150px;
+        width: 150px;
+        border: solid gold;
+        overflow-y: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Box Sizing- (border-content & border-box)</h1>
+    <p class="identend">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste consectetur,
+      fugit dolores quaerat similique, delectus rerum pariatur reiciendis in
+      facere harum ad dolore aspernatur voluptate deserunt! Dolore illo odio
+      quos.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste consectetur,
+      fugit dolores quaerat similique, delectus rerum pariatur reiciendis in
+      facere harum ad dolore aspernatur voluptate deserunt! Dolore illo odio
+      quos.
+    </p>
+
+    <h2>
+      Only block elemet respect the height and width, to make inline element
+      obey this we using disply:inline-block
+    </h2>
+    <span class="inline-box">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
+      voluptas perspiciatis recusandae! Tempore, asperiores recusandae?
+      Cupiditate nemo laudantium magnam, magni dolor facilis, quam nulla,
+      possimus dolorum ex quasi. Ut, porro.
+    </span>
+
+    <span class="inline-box">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
+      voluptas perspiciatis recusandae! Tempore, asperiores recusandae?
+      Cupiditate nemo laudantium magnam, magni dolor facilis, quam nulla,
+      possimus dolorum ex quasi. Ut, porro.
+    </span>
+    <p class="overflow-box">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+      consequatur fuga maiores animi iusto, eius commodi, iure nihil
+      consequuntur dolores optio sint quis necessitatibus exercitationem ea
+      sequi officia voluptas. Nobis? Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Deleniti consequatur fuga maiores animi iusto, eius
+      commodi, iure nihil consequuntur dolores optio sint quis necessitatibus
+      exercitationem ea sequi officia voluptas. Nobis?
+    </p>
+  </body>
+</html>
